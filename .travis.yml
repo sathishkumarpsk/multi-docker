@@ -22,3 +22,5 @@ after_success:
   - docker push sathishpskdocker/multi-nginx
   - docker push sathishpskdocker/multi-server
   - docker push sathishpskdocker/multi-worker
+
+  
