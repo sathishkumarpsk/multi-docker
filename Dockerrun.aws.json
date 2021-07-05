@@ -1,6 +1,6 @@
 {
     "AWSEBDockerrunVersion": 2,
-    "containerDefintions":[
+    "containerDefintions": [
         {
             "name": "client", 
             "image": "sathishpskdocker/multi-client",
