@@ -24,11 +24,10 @@ after_success:
   - docker push sathishpskdocker/multi-worker
 
 deploy:
-  skip_cleanup: true
   provider: elasticbeanstalk
-  region: 'us-west-2'
-  app: 'multi-docker'
-  env: 'Multidocker-env'
+  region: us-west-2
+  app: multi-docker
+  env: Multidocker-env
   bucker_name: elasticbeanstalk-us-west-2-194531873493
   bucker_path: docker-multi
   On:
