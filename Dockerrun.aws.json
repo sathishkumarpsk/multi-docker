@@ -30,7 +30,7 @@
                   "name": "Container",
                   "value": "PHP"
                 }
-              ],
+            ],
             "hostname": "nginx",
             "essential": true,
             "portMappings": [
